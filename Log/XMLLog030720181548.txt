@@ -1,0 +1,10 @@
+I.	03/07/2018 15:48:23	
+I.	03/07/2018 15:48:23	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	03/07/2018 15:48:23	________________ NEW (Manual) SESSION STARTED ________________
+I.	03/07/2018 15:48:34	Connected to Microsoft SQL Server Database (ConnectString='DSN=RMPMS_SQLSERVER;UID=;PWD=')
+I.	03/07/2018 15:48:37	NVO (n_rmpms_xml_delivery) created
+I.	03/07/2018 15:48:37	Connected to SQLServer
+I.	03/07/2018 15:48:37	DataStores Initialised
+I.	03/07/2018 15:48:37	Supplier Count is (4)
+I.	03/07/2018 15:48:40	Supplier (TILHILL FORESTRY) Delivery Ticket Count is (4)
+I.	03/07/2018 15:48:41	Preparing XML...

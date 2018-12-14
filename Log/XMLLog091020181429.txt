@@ -1,0 +1,8 @@
+I.	09/10/2018 14:29:11	
+I.	09/10/2018 14:29:11	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	09/10/2018 14:29:12	________________ NEW (Manual) SESSION STARTED ________________
+I.	09/10/2018 14:29:15	Connected to Microsoft SQL Server Database (ConnectString='DSN=RMPMS_SQLSERVER;UID=sa;)
+I.	09/10/2018 14:29:52	
+I.	09/10/2018 14:29:52	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	09/10/2018 14:29:53	________________ NEW (Manual) SESSION STARTED ________________
+I.	09/10/2018 14:29:55	Connected to Microsoft SQL Server Database (ConnectString='DSN=RMPMS_SQLSERVER;)

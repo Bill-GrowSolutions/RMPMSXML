@@ -1,0 +1,13 @@
+I.	14/07/2017 15:20:51	
+I.	14/07/2017 15:20:51	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	14/07/2017 15:20:55	________________ NEW (Manual) SESSION STARTED ________________
+I.	14/07/2017 15:21:05	Connected to Database
+I.	14/07/2017 15:21:10	NVO (n_rmpms_xml_delivery) created
+I.	14/07/2017 15:21:10	DataStores Initialised
+I.	14/07/2017 15:21:10	Supplier Count is (1)
+I.	14/07/2017 15:21:11	Supplier Count is (1)
+I.	14/07/2017 15:21:24	Supplier (TILHILL FORESTRY) Delivery Ticket Count is (14)
+I.	14/07/2017 15:21:27	Preparing XML...
+I.	14/07/2017 15:21:27	Finished Preparing XML
+I.	14/07/2017 15:21:27	Preparing to write XML to File...
+I.	14/07/2017 15:21:27	Finished writing XML to File (C:\RMPMSXML\ARCHIVE\31140717152127.xml)

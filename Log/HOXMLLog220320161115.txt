@@ -1,0 +1,23 @@
+I.	22/03/2016 11:15:00	
+I.	22/03/2016 11:15:00	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	22/03/2016 11:15:00	________________ NEW (Auto) SESSION STARTED ________________
+I.	22/03/2016 11:15:00	Function: n_rmpms_pb8_connectservice.of_getconnectioninfo - variable ld_dbparm is (ConnectString='DSN=ASA2RMP;UID=rmpms;PWD=savcor')
+I.	22/03/2016 11:15:00	Connected to Database (ConnectString='DSN=ASA2RMP;UID=rmpms;PWD=savcor')
+I.	22/03/2016 11:15:00	NVO (n_rmpms_xml_delivery) created
+I.	22/03/2016 11:15:00	DataStores Initialised
+I.	22/03/2016 11:15:00	Supplier Count is (2)
+I.	22/03/2016 11:15:01	Supplier (TILHILL FORESTRY) Delivery Ticket Count is (5)
+I.	22/03/2016 11:15:01	Preparing XML...
+I.	22/03/2016 11:15:01	Finished Preparing XML
+I.	22/03/2016 11:15:01	Preparing to write XML to File...
+I.	22/03/2016 11:15:01	Finished writing XML to File (\\10.200.1.110\DATA_IMPORT\XML_FILES\IMPORT\31220316111501.xml)
+I.	22/03/2016 11:15:01	Function: of_update_PostedFlag() - Return Codes: Table (RMPDELIVERYLOT) SQLCA.SQLCode(0) 
+I.	22/03/2016 11:15:01	5 Tickets Posted
+I.	22/03/2016 11:15:01	Supplier (SPENCER ECA) Delivery Ticket Count is (3)
+I.	22/03/2016 11:15:01	Preparing XML...
+I.	22/03/2016 11:15:01	Finished Preparing XML
+I.	22/03/2016 11:15:01	Preparing to write XML to File...
+I.	22/03/2016 11:15:01	Finished writing XML to File (\\10.200.1.110\DATA_IMPORT\XML_FILES\IMPORT\138220316111501.xml)
+I.	22/03/2016 11:15:01	Function: of_update_PostedFlag() - Return Codes: Table (RMPDELIVERYLOT) SQLCA.SQLCode(0) 
+I.	22/03/2016 11:15:01	5 Tickets Posted
+I.	22/03/2016 11:15:01	Preparing to HALT CLOSE application

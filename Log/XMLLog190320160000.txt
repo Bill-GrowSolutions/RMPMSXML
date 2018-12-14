@@ -1,0 +1,5 @@
+I.	19/03/2016 00:00:30	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	19/03/2016 00:00:47	________________ NEW (Auto) SESSION STARTED ________________
+I.	19/03/2016 00:00:47	Function: n_rmpms_pb8_connectservice.of_getconnectioninfo - variable ld_dbparm is (ConnectString='DSN=RMPPROD1;UID=rmpms;PWD=savcor')
+I.	19/03/2016 00:01:03	Connected to Database (ConnectString='DSN=RMPPROD1;UID=rmpms;PWD=savcor')
+I.	19/03/2016 00:01:04	Function: n_rmpms_pb8_connectservice.of_getconnectioninfo - variable ld_dbparm is (ConnectString='DSN=RMPPROD1;UID=rmpms;PWD=savcor')

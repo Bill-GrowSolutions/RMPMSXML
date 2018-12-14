@@ -1,0 +1,11 @@
+I.	19/03/2016 01:19:53	
+I.	19/03/2016 01:19:53	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	19/03/2016 01:19:53	________________ NEW (Auto) SESSION STARTED ________________
+I.	19/03/2016 01:19:53	Function: n_rmpms_pb8_connectservice.of_getconnectioninfo - variable ld_dbparm is (ConnectString='DSN=RMPPROD1;UID=rmpms;PWD=savcor')
+I.	19/03/2016 01:19:54	Connected to Database (ConnectString='DSN=RMPPROD1;UID=rmpms;PWD=savcor')
+I.	19/03/2016 01:19:54	NVO (n_rmpms_xml_delivery) created
+I.	19/03/2016 01:19:54	DataStores Initialised
+I.	19/03/2016 01:19:55	Supplier Count is (2)
+I.	19/03/2016 01:19:55	Supplier (A W JENKINSON) Delivery Ticket Count is (0)
+I.	19/03/2016 01:19:55	Supplier (TILHILL FORESTRY) Delivery Ticket Count is (0)
+I.	19/03/2016 01:19:55	Preparing to HALT CLOSE application

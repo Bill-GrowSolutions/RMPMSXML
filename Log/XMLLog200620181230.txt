@@ -1,0 +1,12 @@
+I.	20/06/2018 12:30:32	
+I.	20/06/2018 12:30:32	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	20/06/2018 12:30:41	________________ NEW (Manual) SESSION STARTED ________________
+I.	20/06/2018 12:30:41	Connected to Database
+I.	20/06/2018 12:30:47	NVO (n_rmpms_xml_delivery) created
+I.	20/06/2018 12:30:47	DataStores Initialised
+I.	20/06/2018 12:30:47	Supplier Count is (4)
+I.	20/06/2018 12:30:59	Supplier (JAMES DAVIES) Delivery Ticket Count is (0)
+I.	20/06/2018 12:56:12	Supplier (TEIFI TIMBER) Delivery Ticket Count is (0)
+I.	20/06/2018 12:56:15	Supplier (SPENCER ECA) Delivery Ticket Count is (0)
+I.	20/06/2018 12:56:17	Supplier (TILHILL FORESTRY) Delivery Ticket Count is (0)
+I.	20/06/2018 12:56:19	Supplier (JAMES DAVIES) Delivery Ticket Count is (0)

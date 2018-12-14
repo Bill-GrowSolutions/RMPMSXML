@@ -1,0 +1,4 @@
+I.	22/06/2018 23:12:46	
+I.	22/06/2018 23:12:46	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	22/06/2018 23:12:46	________________ NEW (Manual) SESSION STARTED ________________
+I.	22/06/2018 23:12:46	Connected to Database

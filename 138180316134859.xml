@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TRADING xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="citetradingschema3-1beta5.xsd">
+  <DOCUMENT DocNumber="1" DocType="Despatch Advice">
+    <S.UNB.InterchangeHeader E.0020.InterchangeControlReference.D="???">
+      <C.S002.InterchangeSender E.0004.SenderIdentification.D="BSWCAL200" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0008.AddressForReverseRouting.D="1000"/>
+      <C.S003.InterchangeRecipient E.0010.RecipientIdentification.D="BSWTFL001" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0014.RoutingAddress.D="2000"/>
+    </S.UNB.InterchangeHeader>
+    <S.UNH.MessageHeader E.0062.MessageReferenceNumber.D="0">
+      <C.S009.MessageIdentifier E.0065.MessageTypeIdentifier.C="DESPADV" E.0052.MessageTypeVersionNumber.D="D" E.0054.MessageTypeReleaseNumber.D="92.1" E.0051.ControllingAgency.D="UN" E.0057.AssociationAssigned.C="CITD11" />
+    </S.UNH.MessageHeader>
+    <S.BGM.BeginingOfMessage E.1004.DocumentNumber.D="1" E.1225.MessageFunction.C="9" E.4343.ResponseType.C="NA">
+      <C.C002.DocumentName E.1001.DocumentName.C="DESPADV" E.1131.CodeList.Q="ZZZ" E.3055.CodeListAgency.C="6" />
+    </S.BGM.BeginingOfMessage>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="137" E.2380.DateTimePeriod.D="20160318134847" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="ZZZ" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="1"/>
+      <C.C108.Text E.4440.Text.D="">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+    <S.SG01>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="LOT" E.1154.ReferenceNumber.D="7125" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="AAU" E.1154.ReferenceNumber.D="35199670" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="WM" E.1154.ReferenceNumber.D="230853" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VT" E.1154.ReferenceNumber.D="T400SEC" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="CT" E.1154.ReferenceNumber.D="VOLAC COMMISSIONING" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZCY" E.1154.ReferenceNumber.D="Y" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ANK" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZMN" E.1154.ReferenceNumber.D="491" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRF" E.1154.ReferenceNumber.D="N" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRR" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+    </S.SG01>
+    <S.SG04>
+      <S.PAT.TermsOfPaymentBasis E.4279.TermsOfPaymentType.Q="ZZZ">
+        <C.C110.TermsOfPayment E.4277.TermsOfPaymentIdentification.D="" E.4276.TermsOfPayment.D=""/>
+        <C.C112.TimeAndTermsInformation E.2475.TermsOfPaymentReference.C="ZZZ" E.2009.TimeRelation.C="" E.2151.TimePeriodType.C="" E.2152.NumberOfPeriods.D=""/>
+      </S.PAT.TermsOfPaymentBasis>
+      <S.SG05>
+        <S.SG06>
+         <S.PCD.Percentage>
+          <C.C501.Percentage />
+         </S.PCD.Percentage>
+        </S.SG06>
+      </S.SG05>
+    </S.SG04>
+    <S.SG08>
+      <S.NAD.NameAndAddress E.3035.Party.Q="SU">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="GB370669530" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="BSWTFL001" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="TILHILL FORESTRY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="KINGS PARK HOUSE, LAURELHILL BUSINESS PARK" E.3164.CityOrTown.D="STIRLING" E.nnnn.County.D="" E.3251.PostCode.D="FK7 9NS" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="BY">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC RENEWABLE ENERGY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="50 FISHERS LANE" E.3164.CityOrTown.D="ORWELL" E.nnnn.County.D="ROYSTON" E.3251.PostCode.D="SG8 5QX" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="DP">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC BIOMASS"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="FELINFACH" E.3164.CityOrTown.D="LAMPETER" E.nnnn.County.D="CEREDIGION" E.3251.PostCode.D="" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.SG09>
+        <S.CTA.ContactInformation>
+          <C.C056.DepartmentOrEmployee />
+        </S.CTA.ContactInformation>
+      </S.SG09>
+        <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+        <S.FII.FinancialInstitutionInformation E.3035.Party.Q="" E.3207.Country.C="">
+        <C.C078.AccountIdentification E.3194.AccountHolderNumber.D="" E.3192.AccountHolderName.D="" E.6345.Currency.C="" />
+    <C.C088.InstitutionIdentification E.3433.InstitutionNameIdentification.C="" E.3434.InstitutionBranchNumber.D="" E.3432.InstitutionName.D="" E.3436.InstitutionBranchPlace.D="" />
+</S.FII.FinancialInstitutionInformation>
+    </S.SG08>
+    <S.SG10>
+      <S.TDT.Transport E.8051.Stage.Q="1" E.8028.ConveyanceReferenceNumber.D="">
+        <C.C220.ModeOfTransport E.8067.Mode.C="3"/>
+        <C.C228.MeansOfTransport E.8179.MeansOfTransportIdentification.C="31"/>
+        <C.C040.TransportCarrier E.3127.CarrierIdentification.D="" E.3128.CarrierName.D="" E.3055.CodeListAgency.C="6"/>
+      </S.TDT.Transport>
+    </S.SG10>
+    <S.SG50>
+      <S.LIN.LineItem E.1082.LineItemNumber.D="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="88001483" E.7143.ItemNumberType.C="SA"/>
+      </S.LIN.LineItem>
+      <S.PIA.AdditionalProductIdentification E.4347.ProductIdentificationFunction.Q="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="SS" E.7143.ItemNumberType.C="BP" />
+      </S.PIA.AdditionalProductIdentification>
+      <S.IMD.ItemDescription E.7081.ItemCharacteristics.C="A" E.7077.ItemDescriptionType.C="8">
+        <C.C273.ItemDescription E.7009.ItemDescriptionIdentification.C="4" E.7008.ItemDescription.D="Fuelwood"/>
+      </S.IMD.ItemDescription>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="G"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="36.9"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="20.12"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TSD" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="20.12"/>
+      </S.MEA.Measurement>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="47" E.6060.Quantity.D="20.12" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="20.12" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="20.12" E.6411.UnitOfMeasurement.Q="TSD" />
+        </S.QTY.Quantity>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="35" E.2380.DateTimePeriod.D="20160316104400" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="DEL" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="DSD"/>
+      <C.C108.Text E.4440.Text.D="SPENCER ECA COMMISSIONING FUEL">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="38" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.SG51>
+        <S.PRI.Price>
+        <C.C509.PriceIformation E.5125.Price.Q="CAL" E.5118.Price.D="108.5" E.5284.UnitPriceBasis.C="?" E.5387.PriceType.Q="CON" E.6411.UnitOfMeasurement.Q="TNE"/>
+        </S.PRI.Price>
+            <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="" E.6345.Currency.C="" E.6343.Currency.Q="" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+              <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG51>
+      <S.SG52>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+          <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG52>
+      <S.SG53>
+       <S.DGS.DangerousGoods>
+         <C.C205.HazardCode />
+         <C.C234.UNDGInformation />
+         <C.C223.DangerousGoodsShipmentFlashPoint />
+         <C.C235.HazardIdentification />
+         <C.C236.DangerousGoodsLabel />
+       </S.DGS.DangerousGoods>
+      </S.SG53>
+      <S.SG54>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+      <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+      </S.SG54>
+    <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+    <S.SG56>
+      <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+      <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    </S.SG56>
+    <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    <S.SG58>
+      <S.TAX.DutyTaxFee>
+      <C.C241.DutyTaxFeeType />
+      <C.C243.DutyTaxFee />
+    </S.TAX.DutyTaxFee>
+    </S.SG58>
+    <S.SG59>
+     <S.NAD.NameAndAddress>
+      <C.C082.PartyIdentification />
+      <C.C058.NameAndAddress />
+      <C.C059.Street />
+    </S.NAD.NameAndAddress>
+    <S.DOC.Document>
+      <C.C002.DocumentName />
+    </S.DOC.Document>
+    </S.SG59>
+    <S.SG60>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+    </S.SG60>
+    <S.SG61 />
+    <S.SG62>
+      <S.QVA.QuantityVariances>
+      <C.C279.QuantityDifferenceInformation />
+      <C.C262.ReasonForChange />
+    </S.QVA.QuantityVariances>
+    </S.SG62>
+    <S.SG63>
+      <S.ALC.AllowanceCharge>
+      <C.C552.AllowanceChargeInformation />
+      <C.C214.SpecialServicesIdentification />
+    </S.ALC.AllowanceCharge>
+    </S.SG63>
+    <S.SG64>
+      <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG64>
+    </S.SG50>
+    <S.UNS.SectionControl E.0081.SectionIdentification.D="S" />
+    <S.CNT.ControlTotal>
+      <C.C270.Control E.6069.Control.Q="" E.6066.Control.D="" E.6411.UnitOfMeasurement.Q=""/>
+    </S.CNT.ControlTotal>
+    <S.SG71>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="" E.5004.MonetaryAmount.D="" E.4405.Status.C=""/>
+      </S.MOA.MonetaryAmount>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+    </S.SG71>
+    <S.SG72>
+      <S.TAX.DutyTaxFee E.5283.DutyTaxFeeFunction.Q="9">
+        <C.C241.DutyTaxFeeType E.5153.DutyTaxFeeType.C="VAT"/>
+        <C.C243.DutyTaxFee E.5278.DutyTaxFeeRate.D="20" E.5305.DutyTaxFeeCategory.C="S"/>
+      </S.TAX.DutyTaxFee>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="9" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+    </S.SG72>
+    <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="1" E.6345.Currency.C="GBP" E.6343.Currency.Q="4" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+    <S.UNT.MessageTrailer E.0074.TotalSegmentCount.D="??" E.0062.MessageReferenceNumber.D="0"/>
+  </DOCUMENT>
+  <DOCUMENT DocNumber="2" DocType="Despatch Advice">
+    <S.UNB.InterchangeHeader E.0020.InterchangeControlReference.D="???">
+      <C.S002.InterchangeSender E.0004.SenderIdentification.D="BSWCAL200" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0008.AddressForReverseRouting.D="1000"/>
+      <C.S003.InterchangeRecipient E.0010.RecipientIdentification.D="BSWTFL001" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0014.RoutingAddress.D="2000"/>
+    </S.UNB.InterchangeHeader>
+    <S.UNH.MessageHeader E.0062.MessageReferenceNumber.D="0">
+      <C.S009.MessageIdentifier E.0065.MessageTypeIdentifier.C="DESPADV" E.0052.MessageTypeVersionNumber.D="D" E.0054.MessageTypeReleaseNumber.D="92.1" E.0051.ControllingAgency.D="UN" E.0057.AssociationAssigned.C="CITD11" />
+    </S.UNH.MessageHeader>
+    <S.BGM.BeginingOfMessage E.1004.DocumentNumber.D="1" E.1225.MessageFunction.C="9" E.4343.ResponseType.C="NA">
+      <C.C002.DocumentName E.1001.DocumentName.C="DESPADV" E.1131.CodeList.Q="ZZZ" E.3055.CodeListAgency.C="6" />
+    </S.BGM.BeginingOfMessage>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="137" E.2380.DateTimePeriod.D="20160318134847" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="ZZZ" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="1"/>
+      <C.C108.Text E.4440.Text.D="">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+    <S.SG01>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="LOT" E.1154.ReferenceNumber.D="7125" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="AAU" E.1154.ReferenceNumber.D="35199773" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="WM" E.1154.ReferenceNumber.D="230823" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VT" E.1154.ReferenceNumber.D="T400SEC" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="CT" E.1154.ReferenceNumber.D="VOLAC COMMISSIONING" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZCY" E.1154.ReferenceNumber.D="Y" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ANK" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZMN" E.1154.ReferenceNumber.D="491" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRF" E.1154.ReferenceNumber.D="N" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRR" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+    </S.SG01>
+    <S.SG04>
+      <S.PAT.TermsOfPaymentBasis E.4279.TermsOfPaymentType.Q="ZZZ">
+        <C.C110.TermsOfPayment E.4277.TermsOfPaymentIdentification.D="" E.4276.TermsOfPayment.D=""/>
+        <C.C112.TimeAndTermsInformation E.2475.TermsOfPaymentReference.C="ZZZ" E.2009.TimeRelation.C="" E.2151.TimePeriodType.C="" E.2152.NumberOfPeriods.D=""/>
+      </S.PAT.TermsOfPaymentBasis>
+      <S.SG05>
+        <S.SG06>
+         <S.PCD.Percentage>
+          <C.C501.Percentage />
+         </S.PCD.Percentage>
+        </S.SG06>
+      </S.SG05>
+    </S.SG04>
+    <S.SG08>
+      <S.NAD.NameAndAddress E.3035.Party.Q="SU">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="GB370669530" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="BSWTFL001" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="TILHILL FORESTRY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="KINGS PARK HOUSE, LAURELHILL BUSINESS PARK" E.3164.CityOrTown.D="STIRLING" E.nnnn.County.D="" E.3251.PostCode.D="FK7 9NS" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="BY">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC RENEWABLE ENERGY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="50 FISHERS LANE" E.3164.CityOrTown.D="ORWELL" E.nnnn.County.D="ROYSTON" E.3251.PostCode.D="SG8 5QX" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="DP">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC BIOMASS"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="FELINFACH" E.3164.CityOrTown.D="LAMPETER" E.nnnn.County.D="CEREDIGION" E.3251.PostCode.D="" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.SG09>
+        <S.CTA.ContactInformation>
+          <C.C056.DepartmentOrEmployee />
+        </S.CTA.ContactInformation>
+      </S.SG09>
+        <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+        <S.FII.FinancialInstitutionInformation E.3035.Party.Q="" E.3207.Country.C="">
+        <C.C078.AccountIdentification E.3194.AccountHolderNumber.D="" E.3192.AccountHolderName.D="" E.6345.Currency.C="" />
+    <C.C088.InstitutionIdentification E.3433.InstitutionNameIdentification.C="" E.3434.InstitutionBranchNumber.D="" E.3432.InstitutionName.D="" E.3436.InstitutionBranchPlace.D="" />
+</S.FII.FinancialInstitutionInformation>
+    </S.SG08>
+    <S.SG10>
+      <S.TDT.Transport E.8051.Stage.Q="1" E.8028.ConveyanceReferenceNumber.D="">
+        <C.C220.ModeOfTransport E.8067.Mode.C="3"/>
+        <C.C228.MeansOfTransport E.8179.MeansOfTransportIdentification.C="31"/>
+        <C.C040.TransportCarrier E.3127.CarrierIdentification.D="" E.3128.CarrierName.D="" E.3055.CodeListAgency.C="6"/>
+      </S.TDT.Transport>
+    </S.SG10>
+    <S.SG50>
+      <S.LIN.LineItem E.1082.LineItemNumber.D="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="88001483" E.7143.ItemNumberType.C="SA"/>
+      </S.LIN.LineItem>
+      <S.PIA.AdditionalProductIdentification E.4347.ProductIdentificationFunction.Q="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="SS" E.7143.ItemNumberType.C="BP" />
+      </S.PIA.AdditionalProductIdentification>
+      <S.IMD.ItemDescription E.7081.ItemCharacteristics.C="A" E.7077.ItemDescriptionType.C="8">
+        <C.C273.ItemDescription E.7009.ItemDescriptionIdentification.C="4" E.7008.ItemDescription.D="Fuelwood"/>
+      </S.IMD.ItemDescription>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="G"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="38.48"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="21.86"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TSD" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="21.86"/>
+      </S.MEA.Measurement>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="47" E.6060.Quantity.D="21.86" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="21.86" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="21.86" E.6411.UnitOfMeasurement.Q="TSD" />
+        </S.QTY.Quantity>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="35" E.2380.DateTimePeriod.D="20160315152100" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="DEL" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="DSD"/>
+      <C.C108.Text E.4440.Text.D="SPENCER ECA COMMISSIONING FUEL">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="38" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.SG51>
+        <S.PRI.Price>
+        <C.C509.PriceIformation E.5125.Price.Q="CAL" E.5118.Price.D="108.5" E.5284.UnitPriceBasis.C="?" E.5387.PriceType.Q="CON" E.6411.UnitOfMeasurement.Q="TNE"/>
+        </S.PRI.Price>
+            <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="" E.6345.Currency.C="" E.6343.Currency.Q="" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+              <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG51>
+      <S.SG52>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+          <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG52>
+      <S.SG53>
+       <S.DGS.DangerousGoods>
+         <C.C205.HazardCode />
+         <C.C234.UNDGInformation />
+         <C.C223.DangerousGoodsShipmentFlashPoint />
+         <C.C235.HazardIdentification />
+         <C.C236.DangerousGoodsLabel />
+       </S.DGS.DangerousGoods>
+      </S.SG53>
+      <S.SG54>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+      <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+      </S.SG54>
+    <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+    <S.SG56>
+      <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+      <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    </S.SG56>
+    <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    <S.SG58>
+      <S.TAX.DutyTaxFee>
+      <C.C241.DutyTaxFeeType />
+      <C.C243.DutyTaxFee />
+    </S.TAX.DutyTaxFee>
+    </S.SG58>
+    <S.SG59>
+     <S.NAD.NameAndAddress>
+      <C.C082.PartyIdentification />
+      <C.C058.NameAndAddress />
+      <C.C059.Street />
+    </S.NAD.NameAndAddress>
+    <S.DOC.Document>
+      <C.C002.DocumentName />
+    </S.DOC.Document>
+    </S.SG59>
+    <S.SG60>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+    </S.SG60>
+    <S.SG61 />
+    <S.SG62>
+      <S.QVA.QuantityVariances>
+      <C.C279.QuantityDifferenceInformation />
+      <C.C262.ReasonForChange />
+    </S.QVA.QuantityVariances>
+    </S.SG62>
+    <S.SG63>
+      <S.ALC.AllowanceCharge>
+      <C.C552.AllowanceChargeInformation />
+      <C.C214.SpecialServicesIdentification />
+    </S.ALC.AllowanceCharge>
+    </S.SG63>
+    <S.SG64>
+      <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG64>
+    </S.SG50>
+    <S.UNS.SectionControl E.0081.SectionIdentification.D="S" />
+    <S.CNT.ControlTotal>
+      <C.C270.Control E.6069.Control.Q="" E.6066.Control.D="" E.6411.UnitOfMeasurement.Q=""/>
+    </S.CNT.ControlTotal>
+    <S.SG71>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="" E.5004.MonetaryAmount.D="" E.4405.Status.C=""/>
+      </S.MOA.MonetaryAmount>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+    </S.SG71>
+    <S.SG72>
+      <S.TAX.DutyTaxFee E.5283.DutyTaxFeeFunction.Q="9">
+        <C.C241.DutyTaxFeeType E.5153.DutyTaxFeeType.C="VAT"/>
+        <C.C243.DutyTaxFee E.5278.DutyTaxFeeRate.D="20" E.5305.DutyTaxFeeCategory.C="S"/>
+      </S.TAX.DutyTaxFee>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="9" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+    </S.SG72>
+    <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="1" E.6345.Currency.C="GBP" E.6343.Currency.Q="4" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+    <S.UNT.MessageTrailer E.0074.TotalSegmentCount.D="??" E.0062.MessageReferenceNumber.D="0"/>
+  </DOCUMENT>
+  <DOCUMENT DocNumber="3" DocType="Despatch Advice">
+    <S.UNB.InterchangeHeader E.0020.InterchangeControlReference.D="???">
+      <C.S002.InterchangeSender E.0004.SenderIdentification.D="BSWCAL200" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0008.AddressForReverseRouting.D="1000"/>
+      <C.S003.InterchangeRecipient E.0010.RecipientIdentification.D="BSWTFL001" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0014.RoutingAddress.D="2000"/>
+    </S.UNB.InterchangeHeader>
+    <S.UNH.MessageHeader E.0062.MessageReferenceNumber.D="0">
+      <C.S009.MessageIdentifier E.0065.MessageTypeIdentifier.C="DESPADV" E.0052.MessageTypeVersionNumber.D="D" E.0054.MessageTypeReleaseNumber.D="92.1" E.0051.ControllingAgency.D="UN" E.0057.AssociationAssigned.C="CITD11" />
+    </S.UNH.MessageHeader>
+    <S.BGM.BeginingOfMessage E.1004.DocumentNumber.D="1" E.1225.MessageFunction.C="9" E.4343.ResponseType.C="NA">
+      <C.C002.DocumentName E.1001.DocumentName.C="DESPADV" E.1131.CodeList.Q="ZZZ" E.3055.CodeListAgency.C="6" />
+    </S.BGM.BeginingOfMessage>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="137" E.2380.DateTimePeriod.D="20160318134847" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="ZZZ" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="1"/>
+      <C.C108.Text E.4440.Text.D="">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+    <S.SG01>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="LOT" E.1154.ReferenceNumber.D="7125" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="AAU" E.1154.ReferenceNumber.D="35636256" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="WM" E.1154.ReferenceNumber.D="230863" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VT" E.1154.ReferenceNumber.D="T400SEC" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="CT" E.1154.ReferenceNumber.D="VOLAC COMMISSIONING" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZCY" E.1154.ReferenceNumber.D="Y" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ANK" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZMN" E.1154.ReferenceNumber.D="491" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRF" E.1154.ReferenceNumber.D="N" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRR" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+    </S.SG01>
+    <S.SG04>
+      <S.PAT.TermsOfPaymentBasis E.4279.TermsOfPaymentType.Q="ZZZ">
+        <C.C110.TermsOfPayment E.4277.TermsOfPaymentIdentification.D="" E.4276.TermsOfPayment.D=""/>
+        <C.C112.TimeAndTermsInformation E.2475.TermsOfPaymentReference.C="ZZZ" E.2009.TimeRelation.C="" E.2151.TimePeriodType.C="" E.2152.NumberOfPeriods.D=""/>
+      </S.PAT.TermsOfPaymentBasis>
+      <S.SG05>
+        <S.SG06>
+         <S.PCD.Percentage>
+          <C.C501.Percentage />
+         </S.PCD.Percentage>
+        </S.SG06>
+      </S.SG05>
+    </S.SG04>
+    <S.SG08>
+      <S.NAD.NameAndAddress E.3035.Party.Q="SU">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="GB370669530" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="BSWTFL001" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="TILHILL FORESTRY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="KINGS PARK HOUSE, LAURELHILL BUSINESS PARK" E.3164.CityOrTown.D="STIRLING" E.nnnn.County.D="" E.3251.PostCode.D="FK7 9NS" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="BY">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC RENEWABLE ENERGY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="50 FISHERS LANE" E.3164.CityOrTown.D="ORWELL" E.nnnn.County.D="ROYSTON" E.3251.PostCode.D="SG8 5QX" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="DP">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC BIOMASS"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="FELINFACH" E.3164.CityOrTown.D="LAMPETER" E.nnnn.County.D="CEREDIGION" E.3251.PostCode.D="" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.SG09>
+        <S.CTA.ContactInformation>
+          <C.C056.DepartmentOrEmployee />
+        </S.CTA.ContactInformation>
+      </S.SG09>
+        <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+        <S.FII.FinancialInstitutionInformation E.3035.Party.Q="" E.3207.Country.C="">
+        <C.C078.AccountIdentification E.3194.AccountHolderNumber.D="" E.3192.AccountHolderName.D="" E.6345.Currency.C="" />
+    <C.C088.InstitutionIdentification E.3433.InstitutionNameIdentification.C="" E.3434.InstitutionBranchNumber.D="" E.3432.InstitutionName.D="" E.3436.InstitutionBranchPlace.D="" />
+</S.FII.FinancialInstitutionInformation>
+    </S.SG08>
+    <S.SG10>
+      <S.TDT.Transport E.8051.Stage.Q="1" E.8028.ConveyanceReferenceNumber.D="">
+        <C.C220.ModeOfTransport E.8067.Mode.C="3"/>
+        <C.C228.MeansOfTransport E.8179.MeansOfTransportIdentification.C="31"/>
+        <C.C040.TransportCarrier E.3127.CarrierIdentification.D="" E.3128.CarrierName.D="" E.3055.CodeListAgency.C="6"/>
+      </S.TDT.Transport>
+    </S.SG10>
+    <S.SG50>
+      <S.LIN.LineItem E.1082.LineItemNumber.D="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="88001483" E.7143.ItemNumberType.C="SA"/>
+      </S.LIN.LineItem>
+      <S.PIA.AdditionalProductIdentification E.4347.ProductIdentificationFunction.Q="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="SS" E.7143.ItemNumberType.C="BP" />
+      </S.PIA.AdditionalProductIdentification>
+      <S.IMD.ItemDescription E.7081.ItemCharacteristics.C="A" E.7077.ItemDescriptionType.C="8">
+        <C.C273.ItemDescription E.7009.ItemDescriptionIdentification.C="4" E.7008.ItemDescription.D="Fuelwood"/>
+      </S.IMD.ItemDescription>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="G"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="37.56"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="20.84"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TSD" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="20.84"/>
+      </S.MEA.Measurement>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="47" E.6060.Quantity.D="20.84" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="20.84" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="20.84" E.6411.UnitOfMeasurement.Q="TSD" />
+        </S.QTY.Quantity>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="35" E.2380.DateTimePeriod.D="20160316151600" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="DEL" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="DSD"/>
+      <C.C108.Text E.4440.Text.D="SPENCER ECA COMMISSIONING FUEL">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="38" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.SG51>
+        <S.PRI.Price>
+        <C.C509.PriceIformation E.5125.Price.Q="CAL" E.5118.Price.D="108.5" E.5284.UnitPriceBasis.C="?" E.5387.PriceType.Q="CON" E.6411.UnitOfMeasurement.Q="TNE"/>
+        </S.PRI.Price>
+            <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="" E.6345.Currency.C="" E.6343.Currency.Q="" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+              <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG51>
+      <S.SG52>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+          <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG52>
+      <S.SG53>
+       <S.DGS.DangerousGoods>
+         <C.C205.HazardCode />
+         <C.C234.UNDGInformation />
+         <C.C223.DangerousGoodsShipmentFlashPoint />
+         <C.C235.HazardIdentification />
+         <C.C236.DangerousGoodsLabel />
+       </S.DGS.DangerousGoods>
+      </S.SG53>
+      <S.SG54>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+      <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+      </S.SG54>
+    <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+    <S.SG56>
+      <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+      <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    </S.SG56>
+    <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    <S.SG58>
+      <S.TAX.DutyTaxFee>
+      <C.C241.DutyTaxFeeType />
+      <C.C243.DutyTaxFee />
+    </S.TAX.DutyTaxFee>
+    </S.SG58>
+    <S.SG59>
+     <S.NAD.NameAndAddress>
+      <C.C082.PartyIdentification />
+      <C.C058.NameAndAddress />
+      <C.C059.Street />
+    </S.NAD.NameAndAddress>
+    <S.DOC.Document>
+      <C.C002.DocumentName />
+    </S.DOC.Document>
+    </S.SG59>
+    <S.SG60>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+    </S.SG60>
+    <S.SG61 />
+    <S.SG62>
+      <S.QVA.QuantityVariances>
+      <C.C279.QuantityDifferenceInformation />
+      <C.C262.ReasonForChange />
+    </S.QVA.QuantityVariances>
+    </S.SG62>
+    <S.SG63>
+      <S.ALC.AllowanceCharge>
+      <C.C552.AllowanceChargeInformation />
+      <C.C214.SpecialServicesIdentification />
+    </S.ALC.AllowanceCharge>
+    </S.SG63>
+    <S.SG64>
+      <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG64>
+    </S.SG50>
+    <S.UNS.SectionControl E.0081.SectionIdentification.D="S" />
+    <S.CNT.ControlTotal>
+      <C.C270.Control E.6069.Control.Q="" E.6066.Control.D="" E.6411.UnitOfMeasurement.Q=""/>
+    </S.CNT.ControlTotal>
+    <S.SG71>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="" E.5004.MonetaryAmount.D="" E.4405.Status.C=""/>
+      </S.MOA.MonetaryAmount>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+    </S.SG71>
+    <S.SG72>
+      <S.TAX.DutyTaxFee E.5283.DutyTaxFeeFunction.Q="9">
+        <C.C241.DutyTaxFeeType E.5153.DutyTaxFeeType.C="VAT"/>
+        <C.C243.DutyTaxFee E.5278.DutyTaxFeeRate.D="20" E.5305.DutyTaxFeeCategory.C="S"/>
+      </S.TAX.DutyTaxFee>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="9" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+    </S.SG72>
+    <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="1" E.6345.Currency.C="GBP" E.6343.Currency.Q="4" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+    <S.UNT.MessageTrailer E.0074.TotalSegmentCount.D="??" E.0062.MessageReferenceNumber.D="0"/>
+  </DOCUMENT>
+  <DOCUMENT DocNumber="4" DocType="Despatch Advice">
+    <S.UNB.InterchangeHeader E.0020.InterchangeControlReference.D="???">
+      <C.S002.InterchangeSender E.0004.SenderIdentification.D="BSWCAL200" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0008.AddressForReverseRouting.D="1000"/>
+      <C.S003.InterchangeRecipient E.0010.RecipientIdentification.D="BSWTFL001" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0014.RoutingAddress.D="2000"/>
+    </S.UNB.InterchangeHeader>
+    <S.UNH.MessageHeader E.0062.MessageReferenceNumber.D="0">
+      <C.S009.MessageIdentifier E.0065.MessageTypeIdentifier.C="DESPADV" E.0052.MessageTypeVersionNumber.D="D" E.0054.MessageTypeReleaseNumber.D="92.1" E.0051.ControllingAgency.D="UN" E.0057.AssociationAssigned.C="CITD11" />
+    </S.UNH.MessageHeader>
+    <S.BGM.BeginingOfMessage E.1004.DocumentNumber.D="1" E.1225.MessageFunction.C="9" E.4343.ResponseType.C="NA">
+      <C.C002.DocumentName E.1001.DocumentName.C="DESPADV" E.1131.CodeList.Q="ZZZ" E.3055.CodeListAgency.C="6" />
+    </S.BGM.BeginingOfMessage>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="137" E.2380.DateTimePeriod.D="20160318134847" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="ZZZ" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="1"/>
+      <C.C108.Text E.4440.Text.D="">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+    <S.SG01>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="LOT" E.1154.ReferenceNumber.D="7125" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="AAU" E.1154.ReferenceNumber.D="35636359" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="WM" E.1154.ReferenceNumber.D="230882" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VT" E.1154.ReferenceNumber.D="J800SEC" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="CT" E.1154.ReferenceNumber.D="VOLAC COMMISSIONING" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZCY" E.1154.ReferenceNumber.D="Y" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ANK" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZMN" E.1154.ReferenceNumber.D="491" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRF" E.1154.ReferenceNumber.D="N" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRR" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+    </S.SG01>
+    <S.SG04>
+      <S.PAT.TermsOfPaymentBasis E.4279.TermsOfPaymentType.Q="ZZZ">
+        <C.C110.TermsOfPayment E.4277.TermsOfPaymentIdentification.D="" E.4276.TermsOfPayment.D=""/>
+        <C.C112.TimeAndTermsInformation E.2475.TermsOfPaymentReference.C="ZZZ" E.2009.TimeRelation.C="" E.2151.TimePeriodType.C="" E.2152.NumberOfPeriods.D=""/>
+      </S.PAT.TermsOfPaymentBasis>
+      <S.SG05>
+        <S.SG06>
+         <S.PCD.Percentage>
+          <C.C501.Percentage />
+         </S.PCD.Percentage>
+        </S.SG06>
+      </S.SG05>
+    </S.SG04>
+    <S.SG08>
+      <S.NAD.NameAndAddress E.3035.Party.Q="SU">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="GB370669530" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="BSWTFL001" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="TILHILL FORESTRY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="KINGS PARK HOUSE, LAURELHILL BUSINESS PARK" E.3164.CityOrTown.D="STIRLING" E.nnnn.County.D="" E.3251.PostCode.D="FK7 9NS" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="BY">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC RENEWABLE ENERGY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="50 FISHERS LANE" E.3164.CityOrTown.D="ORWELL" E.nnnn.County.D="ROYSTON" E.3251.PostCode.D="SG8 5QX" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="DP">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC BIOMASS"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="FELINFACH" E.3164.CityOrTown.D="LAMPETER" E.nnnn.County.D="CEREDIGION" E.3251.PostCode.D="" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.SG09>
+        <S.CTA.ContactInformation>
+          <C.C056.DepartmentOrEmployee />
+        </S.CTA.ContactInformation>
+      </S.SG09>
+        <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+        <S.FII.FinancialInstitutionInformation E.3035.Party.Q="" E.3207.Country.C="">
+        <C.C078.AccountIdentification E.3194.AccountHolderNumber.D="" E.3192.AccountHolderName.D="" E.6345.Currency.C="" />
+    <C.C088.InstitutionIdentification E.3433.InstitutionNameIdentification.C="" E.3434.InstitutionBranchNumber.D="" E.3432.InstitutionName.D="" E.3436.InstitutionBranchPlace.D="" />
+</S.FII.FinancialInstitutionInformation>
+    </S.SG08>
+    <S.SG10>
+      <S.TDT.Transport E.8051.Stage.Q="1" E.8028.ConveyanceReferenceNumber.D="">
+        <C.C220.ModeOfTransport E.8067.Mode.C="3"/>
+        <C.C228.MeansOfTransport E.8179.MeansOfTransportIdentification.C="31"/>
+        <C.C040.TransportCarrier E.3127.CarrierIdentification.D="" E.3128.CarrierName.D="" E.3055.CodeListAgency.C="6"/>
+      </S.TDT.Transport>
+    </S.SG10>
+    <S.SG50>
+      <S.LIN.LineItem E.1082.LineItemNumber.D="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="88001483" E.7143.ItemNumberType.C="SA"/>
+      </S.LIN.LineItem>
+      <S.PIA.AdditionalProductIdentification E.4347.ProductIdentificationFunction.Q="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="SS" E.7143.ItemNumberType.C="BP" />
+      </S.PIA.AdditionalProductIdentification>
+      <S.IMD.ItemDescription E.7081.ItemCharacteristics.C="A" E.7077.ItemDescriptionType.C="8">
+        <C.C273.ItemDescription E.7009.ItemDescriptionIdentification.C="4" E.7008.ItemDescription.D="Fuelwood"/>
+      </S.IMD.ItemDescription>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="G"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="37.6"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="21.06"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TSD" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="21.06"/>
+      </S.MEA.Measurement>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="47" E.6060.Quantity.D="21.06" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="21.06" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="21.06" E.6411.UnitOfMeasurement.Q="TSD" />
+        </S.QTY.Quantity>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="35" E.2380.DateTimePeriod.D="20160317093900" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="DEL" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="DSD"/>
+      <C.C108.Text E.4440.Text.D="SPENCER ECA COMMISSIONING FUEL">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="38" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.SG51>
+        <S.PRI.Price>
+        <C.C509.PriceIformation E.5125.Price.Q="CAL" E.5118.Price.D="108.5" E.5284.UnitPriceBasis.C="?" E.5387.PriceType.Q="CON" E.6411.UnitOfMeasurement.Q="TNE"/>
+        </S.PRI.Price>
+            <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="" E.6345.Currency.C="" E.6343.Currency.Q="" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+              <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG51>
+      <S.SG52>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+          <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG52>
+      <S.SG53>
+       <S.DGS.DangerousGoods>
+         <C.C205.HazardCode />
+         <C.C234.UNDGInformation />
+         <C.C223.DangerousGoodsShipmentFlashPoint />
+         <C.C235.HazardIdentification />
+         <C.C236.DangerousGoodsLabel />
+       </S.DGS.DangerousGoods>
+      </S.SG53>
+      <S.SG54>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+      <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+      </S.SG54>
+    <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+    <S.SG56>
+      <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+      <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    </S.SG56>
+    <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    <S.SG58>
+      <S.TAX.DutyTaxFee>
+      <C.C241.DutyTaxFeeType />
+      <C.C243.DutyTaxFee />
+    </S.TAX.DutyTaxFee>
+    </S.SG58>
+    <S.SG59>
+     <S.NAD.NameAndAddress>
+      <C.C082.PartyIdentification />
+      <C.C058.NameAndAddress />
+      <C.C059.Street />
+    </S.NAD.NameAndAddress>
+    <S.DOC.Document>
+      <C.C002.DocumentName />
+    </S.DOC.Document>
+    </S.SG59>
+    <S.SG60>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+    </S.SG60>
+    <S.SG61 />
+    <S.SG62>
+      <S.QVA.QuantityVariances>
+      <C.C279.QuantityDifferenceInformation />
+      <C.C262.ReasonForChange />
+    </S.QVA.QuantityVariances>
+    </S.SG62>
+    <S.SG63>
+      <S.ALC.AllowanceCharge>
+      <C.C552.AllowanceChargeInformation />
+      <C.C214.SpecialServicesIdentification />
+    </S.ALC.AllowanceCharge>
+    </S.SG63>
+    <S.SG64>
+      <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG64>
+    </S.SG50>
+    <S.UNS.SectionControl E.0081.SectionIdentification.D="S" />
+    <S.CNT.ControlTotal>
+      <C.C270.Control E.6069.Control.Q="" E.6066.Control.D="" E.6411.UnitOfMeasurement.Q=""/>
+    </S.CNT.ControlTotal>
+    <S.SG71>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="" E.5004.MonetaryAmount.D="" E.4405.Status.C=""/>
+      </S.MOA.MonetaryAmount>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+    </S.SG71>
+    <S.SG72>
+      <S.TAX.DutyTaxFee E.5283.DutyTaxFeeFunction.Q="9">
+        <C.C241.DutyTaxFeeType E.5153.DutyTaxFeeType.C="VAT"/>
+        <C.C243.DutyTaxFee E.5278.DutyTaxFeeRate.D="20" E.5305.DutyTaxFeeCategory.C="S"/>
+      </S.TAX.DutyTaxFee>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="9" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+    </S.SG72>
+    <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="1" E.6345.Currency.C="GBP" E.6343.Currency.Q="4" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+    <S.UNT.MessageTrailer E.0074.TotalSegmentCount.D="??" E.0062.MessageReferenceNumber.D="0"/>
+  </DOCUMENT>
+  <DOCUMENT DocNumber="5" DocType="Despatch Advice">
+    <S.UNB.InterchangeHeader E.0020.InterchangeControlReference.D="???">
+      <C.S002.InterchangeSender E.0004.SenderIdentification.D="BSWCAL200" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0008.AddressForReverseRouting.D="1000"/>
+      <C.S003.InterchangeRecipient E.0010.RecipientIdentification.D="BSWTFL001" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0014.RoutingAddress.D="2000"/>
+    </S.UNB.InterchangeHeader>
+    <S.UNH.MessageHeader E.0062.MessageReferenceNumber.D="0">
+      <C.S009.MessageIdentifier E.0065.MessageTypeIdentifier.C="DESPADV" E.0052.MessageTypeVersionNumber.D="D" E.0054.MessageTypeReleaseNumber.D="92.1" E.0051.ControllingAgency.D="UN" E.0057.AssociationAssigned.C="CITD11" />
+    </S.UNH.MessageHeader>
+    <S.BGM.BeginingOfMessage E.1004.DocumentNumber.D="1" E.1225.MessageFunction.C="9" E.4343.ResponseType.C="NA">
+      <C.C002.DocumentName E.1001.DocumentName.C="DESPADV" E.1131.CodeList.Q="ZZZ" E.3055.CodeListAgency.C="6" />
+    </S.BGM.BeginingOfMessage>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="137" E.2380.DateTimePeriod.D="20160318134847" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="ZZZ" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="1"/>
+      <C.C108.Text E.4440.Text.D="">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+    <S.SG01>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="LOT" E.1154.ReferenceNumber.D="7125" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="AAU" E.1154.ReferenceNumber.D="35636462" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="WM" E.1154.ReferenceNumber.D="230883" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VT" E.1154.ReferenceNumber.D="J800SEC" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="CT" E.1154.ReferenceNumber.D="VOLAC COMMISSIONING" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZCY" E.1154.ReferenceNumber.D="Y" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ANK" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZMN" E.1154.ReferenceNumber.D="491" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRF" E.1154.ReferenceNumber.D="N" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRR" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+    </S.SG01>
+    <S.SG04>
+      <S.PAT.TermsOfPaymentBasis E.4279.TermsOfPaymentType.Q="ZZZ">
+        <C.C110.TermsOfPayment E.4277.TermsOfPaymentIdentification.D="" E.4276.TermsOfPayment.D=""/>
+        <C.C112.TimeAndTermsInformation E.2475.TermsOfPaymentReference.C="ZZZ" E.2009.TimeRelation.C="" E.2151.TimePeriodType.C="" E.2152.NumberOfPeriods.D=""/>
+      </S.PAT.TermsOfPaymentBasis>
+      <S.SG05>
+        <S.SG06>
+         <S.PCD.Percentage>
+          <C.C501.Percentage />
+         </S.PCD.Percentage>
+        </S.SG06>
+      </S.SG05>
+    </S.SG04>
+    <S.SG08>
+      <S.NAD.NameAndAddress E.3035.Party.Q="SU">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="GB370669530" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="BSWTFL001" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="TILHILL FORESTRY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="KINGS PARK HOUSE, LAURELHILL BUSINESS PARK" E.3164.CityOrTown.D="STIRLING" E.nnnn.County.D="" E.3251.PostCode.D="FK7 9NS" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="BY">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC RENEWABLE ENERGY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="50 FISHERS LANE" E.3164.CityOrTown.D="ORWELL" E.nnnn.County.D="ROYSTON" E.3251.PostCode.D="SG8 5QX" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="DP">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC BIOMASS"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="FELINFACH" E.3164.CityOrTown.D="LAMPETER" E.nnnn.County.D="CEREDIGION" E.3251.PostCode.D="" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.SG09>
+        <S.CTA.ContactInformation>
+          <C.C056.DepartmentOrEmployee />
+        </S.CTA.ContactInformation>
+      </S.SG09>
+        <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+        <S.FII.FinancialInstitutionInformation E.3035.Party.Q="" E.3207.Country.C="">
+        <C.C078.AccountIdentification E.3194.AccountHolderNumber.D="" E.3192.AccountHolderName.D="" E.6345.Currency.C="" />
+    <C.C088.InstitutionIdentification E.3433.InstitutionNameIdentification.C="" E.3434.InstitutionBranchNumber.D="" E.3432.InstitutionName.D="" E.3436.InstitutionBranchPlace.D="" />
+</S.FII.FinancialInstitutionInformation>
+    </S.SG08>
+    <S.SG10>
+      <S.TDT.Transport E.8051.Stage.Q="1" E.8028.ConveyanceReferenceNumber.D="">
+        <C.C220.ModeOfTransport E.8067.Mode.C="3"/>
+        <C.C228.MeansOfTransport E.8179.MeansOfTransportIdentification.C="31"/>
+        <C.C040.TransportCarrier E.3127.CarrierIdentification.D="" E.3128.CarrierName.D="" E.3055.CodeListAgency.C="6"/>
+      </S.TDT.Transport>
+    </S.SG10>
+    <S.SG50>
+      <S.LIN.LineItem E.1082.LineItemNumber.D="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="88001483" E.7143.ItemNumberType.C="SA"/>
+      </S.LIN.LineItem>
+      <S.PIA.AdditionalProductIdentification E.4347.ProductIdentificationFunction.Q="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="SS" E.7143.ItemNumberType.C="BP" />
+      </S.PIA.AdditionalProductIdentification>
+      <S.IMD.ItemDescription E.7081.ItemCharacteristics.C="A" E.7077.ItemDescriptionType.C="8">
+        <C.C273.ItemDescription E.7009.ItemDescriptionIdentification.C="4" E.7008.ItemDescription.D="Fuelwood"/>
+      </S.IMD.ItemDescription>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="G"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="36.6"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="20.08"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TSD" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="20.08"/>
+      </S.MEA.Measurement>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="47" E.6060.Quantity.D="20.08" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="20.08" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="20.08" E.6411.UnitOfMeasurement.Q="TSD" />
+        </S.QTY.Quantity>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="35" E.2380.DateTimePeriod.D="20160317180000" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="DEL" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="DSD"/>
+      <C.C108.Text E.4440.Text.D="SPENCER ECA COMMISSIONING FUEL">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="38" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.SG51>
+        <S.PRI.Price>
+        <C.C509.PriceIformation E.5125.Price.Q="CAL" E.5118.Price.D="108.5" E.5284.UnitPriceBasis.C="?" E.5387.PriceType.Q="CON" E.6411.UnitOfMeasurement.Q="TNE"/>
+        </S.PRI.Price>
+            <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="" E.6345.Currency.C="" E.6343.Currency.Q="" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+              <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG51>
+      <S.SG52>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+          <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG52>
+      <S.SG53>
+       <S.DGS.DangerousGoods>
+         <C.C205.HazardCode />
+         <C.C234.UNDGInformation />
+         <C.C223.DangerousGoodsShipmentFlashPoint />
+         <C.C235.HazardIdentification />
+         <C.C236.DangerousGoodsLabel />
+       </S.DGS.DangerousGoods>
+      </S.SG53>
+      <S.SG54>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+      <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+      </S.SG54>
+    <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+    <S.SG56>
+      <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+      <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    </S.SG56>
+    <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    <S.SG58>
+      <S.TAX.DutyTaxFee>
+      <C.C241.DutyTaxFeeType />
+      <C.C243.DutyTaxFee />
+    </S.TAX.DutyTaxFee>
+    </S.SG58>
+    <S.SG59>
+     <S.NAD.NameAndAddress>
+      <C.C082.PartyIdentification />
+      <C.C058.NameAndAddress />
+      <C.C059.Street />
+    </S.NAD.NameAndAddress>
+    <S.DOC.Document>
+      <C.C002.DocumentName />
+    </S.DOC.Document>
+    </S.SG59>
+    <S.SG60>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+    </S.SG60>
+    <S.SG61 />
+    <S.SG62>
+      <S.QVA.QuantityVariances>
+      <C.C279.QuantityDifferenceInformation />
+      <C.C262.ReasonForChange />
+    </S.QVA.QuantityVariances>
+    </S.SG62>
+    <S.SG63>
+      <S.ALC.AllowanceCharge>
+      <C.C552.AllowanceChargeInformation />
+      <C.C214.SpecialServicesIdentification />
+    </S.ALC.AllowanceCharge>
+    </S.SG63>
+    <S.SG64>
+      <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG64>
+    </S.SG50>
+    <S.UNS.SectionControl E.0081.SectionIdentification.D="S" />
+    <S.CNT.ControlTotal>
+      <C.C270.Control E.6069.Control.Q="" E.6066.Control.D="" E.6411.UnitOfMeasurement.Q=""/>
+    </S.CNT.ControlTotal>
+    <S.SG71>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="" E.5004.MonetaryAmount.D="" E.4405.Status.C=""/>
+      </S.MOA.MonetaryAmount>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+    </S.SG71>
+    <S.SG72>
+      <S.TAX.DutyTaxFee E.5283.DutyTaxFeeFunction.Q="9">
+        <C.C241.DutyTaxFeeType E.5153.DutyTaxFeeType.C="VAT"/>
+        <C.C243.DutyTaxFee E.5278.DutyTaxFeeRate.D="20" E.5305.DutyTaxFeeCategory.C="S"/>
+      </S.TAX.DutyTaxFee>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="9" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+    </S.SG72>
+    <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="1" E.6345.Currency.C="GBP" E.6343.Currency.Q="4" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+    <S.UNT.MessageTrailer E.0074.TotalSegmentCount.D="??" E.0062.MessageReferenceNumber.D="0"/>
+  </DOCUMENT>
+  <DOCUMENT DocNumber="6" DocType="Despatch Advice">
+    <S.UNB.InterchangeHeader E.0020.InterchangeControlReference.D="???">
+      <C.S002.InterchangeSender E.0004.SenderIdentification.D="BSWCAL200" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0008.AddressForReverseRouting.D="1000"/>
+      <C.S003.InterchangeRecipient E.0010.RecipientIdentification.D="BSWTFL001" E.0007.PartnerIdentificationCode.Q="ZZZ" E.0014.RoutingAddress.D="2000"/>
+    </S.UNB.InterchangeHeader>
+    <S.UNH.MessageHeader E.0062.MessageReferenceNumber.D="0">
+      <C.S009.MessageIdentifier E.0065.MessageTypeIdentifier.C="DESPADV" E.0052.MessageTypeVersionNumber.D="D" E.0054.MessageTypeReleaseNumber.D="92.1" E.0051.ControllingAgency.D="UN" E.0057.AssociationAssigned.C="CITD11" />
+    </S.UNH.MessageHeader>
+    <S.BGM.BeginingOfMessage E.1004.DocumentNumber.D="1" E.1225.MessageFunction.C="9" E.4343.ResponseType.C="NA">
+      <C.C002.DocumentName E.1001.DocumentName.C="DESPADV" E.1131.CodeList.Q="ZZZ" E.3055.CodeListAgency.C="6" />
+    </S.BGM.BeginingOfMessage>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="137" E.2380.DateTimePeriod.D="20160318134847" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="ZZZ" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="1"/>
+      <C.C108.Text E.4440.Text.D="">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+    <S.SG01>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="LOT" E.1154.ReferenceNumber.D="7125" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="AAU" E.1154.ReferenceNumber.D="35636565" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="WM" E.1154.ReferenceNumber.D="230908" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VT" E.1154.ReferenceNumber.D="R16VO" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="CT" E.1154.ReferenceNumber.D="VOLAC COMMISSIONING" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZCY" E.1154.ReferenceNumber.D="Y" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ANK" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZMN" E.1154.ReferenceNumber.D="491" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRF" E.1154.ReferenceNumber.D="N" />
+      </S.RFF.Reference>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="ZRR" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+    </S.SG01>
+    <S.SG04>
+      <S.PAT.TermsOfPaymentBasis E.4279.TermsOfPaymentType.Q="ZZZ">
+        <C.C110.TermsOfPayment E.4277.TermsOfPaymentIdentification.D="" E.4276.TermsOfPayment.D=""/>
+        <C.C112.TimeAndTermsInformation E.2475.TermsOfPaymentReference.C="ZZZ" E.2009.TimeRelation.C="" E.2151.TimePeriodType.C="" E.2152.NumberOfPeriods.D=""/>
+      </S.PAT.TermsOfPaymentBasis>
+      <S.SG05>
+        <S.SG06>
+         <S.PCD.Percentage>
+          <C.C501.Percentage />
+         </S.PCD.Percentage>
+        </S.SG06>
+      </S.SG05>
+    </S.SG04>
+    <S.SG08>
+      <S.NAD.NameAndAddress E.3035.Party.Q="SU">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="GB370669530" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="BSWTFL001" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="TILHILL FORESTRY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="KINGS PARK HOUSE, LAURELHILL BUSINESS PARK" E.3164.CityOrTown.D="STIRLING" E.nnnn.County.D="" E.3251.PostCode.D="FK7 9NS" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="BY">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC RENEWABLE ENERGY LTD"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="50 FISHERS LANE" E.3164.CityOrTown.D="ORWELL" E.nnnn.County.D="ROYSTON" E.3251.PostCode.D="SG8 5QX" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.NAD.NameAndAddress E.3035.Party.Q="DP">
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="VA" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+        <C.C082.PartyIdentification E.3039.PartyIdentification.D="43084" E.1131.CodeList.Q="ZZZ" E.3055.CodeListRespAgency.C="06"/>
+        <C.C058.NameAndAddress E.3124.NameAndAddress.D="VOLAC BIOMASS"/>
+        <C.C059.Street E.3042.StreetNumberAndName.D="FELINFACH" E.3164.CityOrTown.D="LAMPETER" E.nnnn.County.D="CEREDIGION" E.3251.PostCode.D="" E.3207.Country.C="GB"/></S.NAD.NameAndAddress>
+      <S.SG09>
+        <S.CTA.ContactInformation>
+          <C.C056.DepartmentOrEmployee />
+        </S.CTA.ContactInformation>
+      </S.SG09>
+        <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+        <S.FII.FinancialInstitutionInformation E.3035.Party.Q="" E.3207.Country.C="">
+        <C.C078.AccountIdentification E.3194.AccountHolderNumber.D="" E.3192.AccountHolderName.D="" E.6345.Currency.C="" />
+    <C.C088.InstitutionIdentification E.3433.InstitutionNameIdentification.C="" E.3434.InstitutionBranchNumber.D="" E.3432.InstitutionName.D="" E.3436.InstitutionBranchPlace.D="" />
+</S.FII.FinancialInstitutionInformation>
+    </S.SG08>
+    <S.SG10>
+      <S.TDT.Transport E.8051.Stage.Q="1" E.8028.ConveyanceReferenceNumber.D="">
+        <C.C220.ModeOfTransport E.8067.Mode.C="3"/>
+        <C.C228.MeansOfTransport E.8179.MeansOfTransportIdentification.C="31"/>
+        <C.C040.TransportCarrier E.3127.CarrierIdentification.D="" E.3128.CarrierName.D="" E.3055.CodeListAgency.C="6"/>
+      </S.TDT.Transport>
+    </S.SG10>
+    <S.SG50>
+      <S.LIN.LineItem E.1082.LineItemNumber.D="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="88001483" E.7143.ItemNumberType.C="SA"/>
+      </S.LIN.LineItem>
+      <S.PIA.AdditionalProductIdentification E.4347.ProductIdentificationFunction.Q="1">
+        <C.C212.ItemNumberIdentification E.7140.ItemNumber.D="SS" E.7143.ItemNumberType.C="BP" />
+      </S.PIA.AdditionalProductIdentification>
+      <S.IMD.ItemDescription E.7081.ItemCharacteristics.C="A" E.7077.ItemDescriptionType.C="8">
+        <C.C273.ItemDescription E.7009.ItemDescriptionIdentification.C="4" E.7008.ItemDescription.D="Fuelwood"/>
+      </S.IMD.ItemDescription>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="G"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="36.3"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TNE" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="18.42"/>
+      </S.MEA.Measurement>
+      <S.MEA.Measurement E.6311.MeasurementApplication.Q="AAA">
+        <C.C502.Measurement E.6313.MeasurementDimension.C="N"/>
+        <C.C174.ValueRange E.6411.UnitOfMeasurement.Q="TSD" E.6162.RangeMinimum.D="0" E.6152.RangeMaximum.D="99999" E.6314.Measurement.D="18.42"/>
+      </S.MEA.Measurement>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="47" E.6060.Quantity.D="18.42" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="18.42" E.6411.UnitOfMeasurement.Q="TNE" />
+        </S.QTY.Quantity>
+      <S.QTY.Quantity>
+        <C.C186.Quantity E.6063.Quantity.Q="48" E.6060.Quantity.D="18.42" E.6411.UnitOfMeasurement.Q="TSD" />
+        </S.QTY.Quantity>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="35" E.2380.DateTimePeriod.D="20160317222900" E.2379.DateTimePeriodFormat.Q="202"/>
+      </S.DTM.DateTimePeriod>
+    <S.FTX.Text E.4451.TextSubject.Q="DEL" E.4453.TextFunction.C="3">
+      <C.C107.TextReference E.4441.Text.C="DSD"/>
+      <C.C108.Text E.4440.Text.D="SPENCER ECA COMMISSIONING FUEL">
+        <E.4440.Text Line=""/>
+      </C.C108.Text>
+    </S.FTX.Text>
+
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="38" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+      <S.SG51>
+        <S.PRI.Price>
+        <C.C509.PriceIformation E.5125.Price.Q="CAL" E.5118.Price.D="108.5" E.5284.UnitPriceBasis.C="?" E.5387.PriceType.Q="CON" E.6411.UnitOfMeasurement.Q="TNE"/>
+        </S.PRI.Price>
+            <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="" E.6345.Currency.C="" E.6343.Currency.Q="" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+              <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG51>
+      <S.SG52>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+          <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+      </S.SG52>
+      <S.SG53>
+       <S.DGS.DangerousGoods>
+         <C.C205.HazardCode />
+         <C.C234.UNDGInformation />
+         <C.C223.DangerousGoodsShipmentFlashPoint />
+         <C.C235.HazardIdentification />
+         <C.C236.DangerousGoodsLabel />
+       </S.DGS.DangerousGoods>
+      </S.SG53>
+      <S.SG54>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+      <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+      </S.SG54>
+    <S.SG55>
+      <S.PCI.PackageIdentification>
+        <C.C210.MarksAndLabels />
+      </S.PCI.PackageIdentification>
+    </S.SG55>
+    <S.SG56>
+      <S.LOC.LocationIdentification>
+      <C.C517.LocationIdentification />
+    </S.LOC.LocationIdentification>
+      <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    </S.SG56>
+    <S.SG57>
+    <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG57>
+    <S.SG58>
+      <S.TAX.DutyTaxFee>
+      <C.C241.DutyTaxFeeType />
+      <C.C243.DutyTaxFee />
+    </S.TAX.DutyTaxFee>
+    </S.SG58>
+    <S.SG59>
+     <S.NAD.NameAndAddress>
+      <C.C082.PartyIdentification />
+      <C.C058.NameAndAddress />
+      <C.C059.Street />
+    </S.NAD.NameAndAddress>
+    <S.DOC.Document>
+      <C.C002.DocumentName />
+    </S.DOC.Document>
+    </S.SG59>
+    <S.SG60>
+      <S.PAC.Package>
+        <C.C531.Packaging />
+        <C.C202.Packageref />
+        <C.C532.ReturnablePackage />
+      </S.PAC.Package>
+    </S.SG60>
+    <S.SG61 />
+    <S.SG62>
+      <S.QVA.QuantityVariances>
+      <C.C279.QuantityDifferenceInformation />
+      <C.C262.ReasonForChange />
+    </S.QVA.QuantityVariances>
+    </S.SG62>
+    <S.SG63>
+      <S.ALC.AllowanceCharge>
+      <C.C552.AllowanceChargeInformation />
+      <C.C214.SpecialServicesIdentification />
+    </S.ALC.AllowanceCharge>
+    </S.SG63>
+    <S.SG64>
+      <S.QTY.Quantity>
+      <C.C186.Quantity />
+    </S.QTY.Quantity>
+    </S.SG64>
+    </S.SG50>
+    <S.UNS.SectionControl E.0081.SectionIdentification.D="S" />
+    <S.CNT.ControlTotal>
+      <C.C270.Control E.6069.Control.Q="" E.6066.Control.D="" E.6411.UnitOfMeasurement.Q=""/>
+    </S.CNT.ControlTotal>
+    <S.SG71>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="" E.5004.MonetaryAmount.D="" E.4405.Status.C=""/>
+      </S.MOA.MonetaryAmount>
+      <S.RFF.Reference>
+        <C.C506.Reference E.1153.Reference.Q="" E.1154.ReferenceNumber.D="" />
+      </S.RFF.Reference>
+      <S.DTM.DateTimePeriod>
+        <C.C507.DateTimePeriod E.2005.DateTimePeriod.Q="" E.2380.DateTimePeriod.D="" E.2379.DateTimePeriodFormat.Q=""/>
+      </S.DTM.DateTimePeriod>
+    </S.SG71>
+    <S.SG72>
+      <S.TAX.DutyTaxFee E.5283.DutyTaxFeeFunction.Q="9">
+        <C.C241.DutyTaxFeeType E.5153.DutyTaxFeeType.C="VAT"/>
+        <C.C243.DutyTaxFee E.5278.DutyTaxFeeRate.D="20" E.5305.DutyTaxFeeCategory.C="S"/>
+      </S.TAX.DutyTaxFee>
+      <S.MOA.MonetaryAmount>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="39" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="1" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+        <C.C516.MonetaryAmount E.5025.MonetaryAmountType.Q="9" E.5004.MonetaryAmount.D="0" E.4405.Status.C="45"/>
+      </S.MOA.MonetaryAmount>
+    </S.SG72>
+    <S.CUX.Currency>
+      <C.C504.CurrencyDetails E.6347.CurrencyDetail.Q="1" E.6345.Currency.C="GBP" E.6343.Currency.Q="4" E.6348.CurrencyRateBase.D="" E.5402.RateOfExchange.D="" E.6341.CurrencyMarketExchange.C=""/>
+    </S.CUX.Currency>
+    <S.UNT.MessageTrailer E.0074.TotalSegmentCount.D="??" E.0062.MessageReferenceNumber.D="0"/>
+  </DOCUMENT>
+</TRADING>

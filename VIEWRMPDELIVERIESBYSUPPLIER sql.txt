@@ -1,0 +1,142 @@
+CREATE OR REPLACE VIEW VIEWRMPDELIVERIESBYSUPPLIER AS
+SELECT distinct 1 as Selected,
+           DELIVERIES.DELILINENO LINENUMBER ,
+           DELIVERIES.DELTICKET ,
+           DELIVERIES.FORESTNAME ,
+           DELIVERIES.HAULIER ,
+           DELIVERIES.SECONDWEIGHT ,
+           DELIVERIES.FIRSTWEIGHT ,
+           DELIVERIES.REGNO ,
+           DELIVERIES.DELTIMEIN ,
+           DELIVERIES.WEIGHT ,
+           DELIVERIES.SUPPLIERCODE,
+           DELIVERIES.INVOICEDATE,
+           DELIVERIES.FSCCERTIFIED,
+           NVL(DELIVERIES.WEIGHTTNO,DELIVERIES.DELTICKET) WEIGHTTNO,
+           DELIVERIES.PONO,
+           DELIVERIES.DSUBSITECODE,
+           CERT.CERTIFICATE,
+           POL.AUNITPRICE BUNITPRICE,
+           S.PRICEADJUSTFACTOR,
+           S.OVENDRIEDTONNES,
+           POL.AUNITPRICE * (S.PRICEADJUSTFACTOR/100) UNITPRICE,
+           C.CURRENCY,
+           DELIVERIES.PRODUCTCODE,
+           P.PRODUCT,
+           DEPOT.DEPO,
+           V.VATPERC,
+           DM.DMETHOD,
+           dl.lot,
+           dl.customer,
+           dl.manager,
+           dl.sub_contractor,
+	   lot.contract_no,
+	   lot.lot_name,
+           A.SUPPLIERNAME,
+           ac.name BYNAME,
+           ac.addr1 BYADDR1,
+           ac.addr2 BYADDR2,
+           ac.addr3 BYADDR3,
+           ac.addr4 BYADDR4,
+           ac.postcode BYPOSTCODE,
+           ac.vat_no BYVATCODE,
+           ac.customer BYIDENTCODE,
+           sl.dsiteloca DPNAME,
+           sl.address1 DPADDR1,
+           sl.address2 DPADDR2,
+           sl.address3 DPADDR3
+        FROM RMPDELIVERY DELIVERIES
+        INNER JOIN RMPPURCHASEORDERLINE POL ON POL.PONO=DELIVERIES.PONO AND POL.DEPOCODE=DELIVERIES.DEPOCODE AND POL.PRODUCTCODE=DELIVERIES.PRODUCTCODE
+        INNER JOIN RMPPURCHASEORDER PO ON PO.PONO=DELIVERIES.PONO
+        INNER JOIN RMPDMETHOD DM ON DM.DMETHODCODE=PO.DMETHODCODE
+        INNER JOIN INVPRODUCT P ON P.PRODUCTCODE=DELIVERIES.PRODUCTCODE
+        INNER JOIN RMPDEPOT DEPOT ON DEPOT.DEPOCODE=DELIVERIES.DEPOCODE
+        INNER JOIN RMPVAT V ON V.VATCODE=POL.VATCODE
+        INNER JOIN RMPCURRENCY C ON C.CURRENCYCODE=PO.CURRENCYCODE
+        INNER JOIN AUXUNITMEASURE U ON U.UNITCODE = POL.UNITCODE
+        INNER JOIN RMPBIOSAMPLE S ON S.DELILINENO = DELIVERIES.DELILINENO
+        inner join rmpdeliverylot dl on dl.delticket=deliveries.delticket
+        inner join arthurcustomer ac on ac.customer=dl.customer
+	left outer join arthurlot lot on lot.lot=dl.lot
+        inner join rmpdsubsite ss on ss.dsubsitecode=deliveries.dsubsitecode
+        inner join rmpdsiteloca sl on sl.dsitelocacode=ss.dsitelocacode
+        --left outer join arthurprodlnk ap on ap.rmpprodcode=deliveries.productcode
+        LEFT OUTER JOIN VIEWRMPSUPPLIERCERTIFICATELKP CERT ON CERT.CERTIFICATECODE=DELIVERIES.FSCCERTIFIED AND CERT.SUPPLIERCODE=DELIVERIES.SUPPLIERCODE
+        INNER JOIN RMPADDRESSBOOK A ON A.SUPPLIERCODE=DELIVERIES.SUPPLIERCODE
+        INNER JOIN VIEWRMPRMTYPESUPPLIER RMS ON RMS.SUPPLIERCODE=DELIVERIES.SUPPLIERCODE AND RMS.RMTYPECODE<>1
+        WHERE (dl.PostedToArthur is null)
+            --And ( ( DELIVERIES.SUPPLIERCODE in ( 31 ) )
+ UNION
+SELECT distinct 1 as Selected,
+           DELIVERIES.DELILINENO LINENUMBER ,
+           DELIVERIES.DELTICKET ,
+           DELIVERIES.FORESTNAME ,
+           DELIVERIES.HAULIER ,
+           DELIVERIES.SECONDWEIGHT ,
+           DELIVERIES.FIRSTWEIGHT ,
+           DELIVERIES.REGNO ,
+           DELIVERIES.DELTIMEIN ,
+           DELIVERIES.WEIGHT ,
+           DELIVERIES.SUPPLIERCODE,
+           DELIVERIES.INVOICEDATE ,
+           DELIVERIES.FSCCERTIFIED,
+           NVL(DELIVERIES.WEIGHTTNO,DELIVERIES.DELTICKET) WEIGHTTNO,
+           DELIVERIES.PONO,
+           DELIVERIES.DSUBSITECODE,
+           CERT.CERTIFICATE,
+           POL.AUNITPRICE BUNITPRICE,
+           NVL(S.PRICEADJUSTFACTOR,100),
+           NVL(S.OVENDRIEDTONNES,DELIVERIES.WEIGHT) OVENDRIEDTONNES,
+           POL.AUNITPRICE * (NVL(S.PRICEADJUSTFACTOR,100)/100) UNITPRICE,
+           C.CURRENCY,
+           DELIVERIES.PRODUCTCODE,
+           P.PRODUCT,
+           DEPOT.DEPO,
+           V.VATPERC,
+           DM.DMETHOD,
+           dl.lot,
+           dl.customer,
+           dl.manager,
+           dl.sub_contractor,
+	   lot.contract_no,
+	   lot.lot_name,
+           A.SUPPLIERNAME,
+           ac.name BYNAME,
+           ac.addr1 BYADDR1,
+           ac.addr2 BYADDR2,
+           ac.addr3 BYADDR3,
+           ac.addr4 BYADDR4,
+           ac.postcode BYPOSTCODE,
+           ac.vat_no BYVATCODE,
+           ac.customer BYIDENTCODE,
+           sl.dsiteloca DPNAME,
+           sl.address1 DPADDR1,
+           sl.address2 DPADDR2,
+           sl.address3 DPADDR3
+        FROM RMPDELIVERY DELIVERIES
+        INNER JOIN RMPPURCHASEORDERLINE POL ON POL.PONO=DELIVERIES.PONO AND POL.DEPOCODE=DELIVERIES.DEPOCODE AND POL.PRODUCTCODE=DELIVERIES.PRODUCTCODE
+        INNER JOIN RMPPURCHASEORDER PO ON PO.PONO=DELIVERIES.PONO
+        INNER JOIN RMPDMETHOD DM ON DM.DMETHODCODE=PO.DMETHODCODE
+        INNER JOIN INVPRODUCT P ON P.PRODUCTCODE=DELIVERIES.PRODUCTCODE
+        INNER JOIN RMPDEPOT DEPOT ON DEPOT.DEPOCODE=DELIVERIES.DEPOCODE
+        INNER JOIN RMPVAT V ON V.VATCODE=POL.VATCODE
+        INNER JOIN RMPCURRENCY C ON C.CURRENCYCODE=PO.CURRENCYCODE
+        LEFT OUTER JOIN RMPBIOSAMPLE S ON S.DELILINENO = DELIVERIES.DELILINENO
+        inner join rmpdeliverylot dl on dl.delticket=deliveries.delticket
+        inner join arthurcustomer ac on ac.customer=dl.customer
+	left outer join arthurlot lot on lot.lot=dl.lot
+        inner join rmpdsubsite ss on ss.dsubsitecode=deliveries.dsubsitecode
+        inner join rmpdsiteloca sl on sl.dsitelocacode=ss.dsitelocacode
+        --left outer join arthurprodlnk ap on ap.rmpprodcode=deliveries.productcode
+        LEFT OUTER JOIN VIEWRMPSUPPLIERCERTIFICATELKP CERT ON CERT.CERTIFICATECODE=DELIVERIES.FSCCERTIFIED AND CERT.SUPPLIERCODE=DELIVERIES.SUPPLIERCODE
+        INNER JOIN RMPADDRESSBOOK A ON A.SUPPLIERCODE=DELIVERIES.SUPPLIERCODE
+        INNER JOIN VIEWRMPRMTYPESUPPLIER RMS ON RMS.SUPPLIERCODE=DELIVERIES.SUPPLIERCODE
+        WHERE (dl.PostedToArthur is null) AND (RMS.RMTYPECODE=1)
+                         AND DELIVERIES.WEIGHT IS NOT NULL --WJR 16/04/2009
+                       AND DELIVERIES.WEIGHT <> 0.00 --WJR 06/05/2009
+                       AND DELIVERIES.TICKETSTATUS=1 --WJR 23/06/2009
+                       AND DELIVERIES.QUALITYSTATUSCODE<>2 --WJR 01/05/2012
+                       --and ( ( DELIVERIES.SUPPLIERCODE in ( 31 ) )
+
+ORDER BY 2 --DELTICKET
+

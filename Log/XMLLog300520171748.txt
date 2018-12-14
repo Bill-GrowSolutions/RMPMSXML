@@ -1,0 +1,9 @@
+I.	30/05/2017 17:48:44	
+I.	30/05/2017 17:48:44	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	30/05/2017 17:48:44	________________ NEW (Manual) SESSION STARTED ________________
+I.	30/05/2017 17:48:51	Connected to Database
+I.	30/05/2017 17:48:54	NVO (n_rmpms_xml_delivery) created
+I.	30/05/2017 17:48:54	DataStores Initialised
+I.	30/05/2017 17:48:54	Supplier Count is (0)
+I.	30/05/2017 17:48:56	Supplier Count is (0)
+I.	30/05/2017 17:48:57	Supplier Count is (0)

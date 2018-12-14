@@ -1,0 +1,18 @@
+I.	28/06/2018 12:35:14	
+I.	28/06/2018 12:35:14	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	28/06/2018 12:35:14	________________ NEW (Manual) SESSION STARTED ________________
+I.	28/06/2018 12:35:39	Connected to Microsoft SQL Server Database (ConnectString='DSN=RMPMS_SQLSERVER;UID=;PWD=')
+I.	28/06/2018 12:35:42	NVO (n_rmpms_xml_delivery) created
+I.	28/06/2018 12:35:42	Connected to SQLServer
+I.	28/06/2018 12:35:43	DataStores Initialised
+I.	28/06/2018 12:35:43	Supplier Count is (4)
+I.	28/06/2018 12:35:48	Supplier (TILHILL FORESTRY) Delivery Ticket Count is (4)
+I.	28/06/2018 12:36:10	Preparing XML...
+I.	28/06/2018 12:36:10	Finished Preparing XML
+I.	28/06/2018 12:36:15	Preparing to write XML to File...
+I.	28/06/2018 12:36:18	Finished writing XML to File (c:\rmpmsxml\Archive\31280618123617.xml)
+I.	28/06/2018 12:36:19	Call to batch c:\rmpmsxml\SendXMLToArthurSheila.bat c:\rmpmsxml\Archive\31280618123617.xml returned (1)
+I.	28/06/2018 12:36:42	Supplier (SPENCER ECA) Delivery Ticket Count is (0)
+I.	28/06/2018 12:36:48	Supplier (TEIFI TIMBER) Delivery Ticket Count is (0)
+I.	28/06/2018 12:36:51	Supplier (JAMES DAVIES) Delivery Ticket Count is (0)
+I.	28/06/2018 12:36:54	Supplier (TILHILL FORESTRY) Delivery Ticket Count is (4)

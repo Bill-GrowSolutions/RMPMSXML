@@ -1,0 +1,8 @@
+I.	21/06/2018 16:44:20	
+I.	21/06/2018 16:44:21	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	21/06/2018 16:44:21	________________ NEW (Manual) SESSION STARTED ________________
+I.	21/06/2018 16:44:21	Connected to Database
+I.	21/06/2018 16:44:49	NVO (n_rmpms_xml_delivery) created
+I.	21/06/2018 16:44:49	Connected to SQLServer
+I.	21/06/2018 16:44:49	DataStores Initialised
+I.	21/06/2018 16:44:49	Supplier Count is (4)

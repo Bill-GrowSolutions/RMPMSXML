@@ -1,0 +1,12 @@
+I.	22/06/2018 22:08:26	
+I.	22/06/2018 22:08:26	__________ Welcome to RMPMS XML to Arthur Interface __________
+I.	22/06/2018 22:08:26	________________ NEW (Manual) SESSION STARTED ________________
+I.	22/06/2018 22:08:27	Connected to Database
+I.	22/06/2018 22:08:30	NVO (n_rmpms_xml_delivery) created
+I.	22/06/2018 22:08:30	Connected to SQLServer
+I.	22/06/2018 22:08:30	DataStores Initialised
+I.	22/06/2018 22:08:30	Supplier Count is (4)
+I.	22/06/2018 22:08:37	Supplier (JAMES DAVIES) Delivery Ticket Count is (2)
+I.	22/06/2018 22:08:38	Preparing XML...
+I.	22/06/2018 22:13:13	Finished Preparing XML
+I.	22/06/2018 22:13:53	Preparing to write XML to File...

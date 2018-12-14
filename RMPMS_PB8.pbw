@@ -1,0 +1,8 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "rmpms_pb8.pbt";
+@end;
+DefaultTarget "rmpms_pb8.pbt";
+DefaultRemoteTarget "rmpms_pb8.pbt";
